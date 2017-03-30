@@ -3,7 +3,7 @@ go:
   - 1.7
 
 install:
-  - go get github.com/astaxie/beego
+  - go get -t -v ./...
 
 script:
   - go test ./...
