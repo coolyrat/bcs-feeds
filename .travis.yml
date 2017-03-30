@@ -2,8 +2,8 @@ language: go
 go:
   - 1.7
 
-before_install:
-  - go get -t -v ./...
+install:
+  - go get github.com/astaxie/beego
 
 script:
   - go test ./...
