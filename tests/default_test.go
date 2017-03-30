@@ -6,8 +6,6 @@ import (
 	_ "github.com/coolyrat/bcs-feeds/routers"
 
 	"fmt"
-
-	. "github.com/smartystreets/goconvey/convey"
 )
 
 //func init() {
